@@ -1,13 +1,24 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>b7e27e64-50f8-48e0-8339-4972ad31f17d</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.2" />
+    <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyErpApp.Core\MyErpApp.Core.csproj" />
+    <ProjectReference Include="..\MyErpApp.Infrastructure\MyErpApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\MyErpApp.UiRuntimeCache\MyErpApp.UiRuntimeCache.csproj" />
+    <ProjectReference Include="..\MyErpApp.UiRenderer\MyErpApp.UiRenderer.csproj" />
   </ItemGroup>
 
 </Project>

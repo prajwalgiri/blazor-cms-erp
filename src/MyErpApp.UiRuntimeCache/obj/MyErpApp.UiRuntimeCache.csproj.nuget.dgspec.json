@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj": {}
+    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj": {}
   },
   "projects": {
-    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj": {
+    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj",
+        "projectUniqueName": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj",
         "projectName": "MyErpApp.UiRuntimeCache",
-        "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj",
+        "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\obj\\",
+        "outputPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

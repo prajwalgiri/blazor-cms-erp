@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj": {}
+    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj": {}
   },
   "projects": {
-    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj": {
+    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj",
+        "projectUniqueName": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj",
         "projectName": "MyErpApp.UiRenderer",
-        "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj",
+        "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\obj\\",
+        "outputPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
