@@ -26,11 +26,11 @@
 - [x] Implement a sample dummy module plugin (e.g. `HelloWorld.Plugin`) [COMPLETED]
 
 ### Sprint 3.1 – Plugin Error Handling & Resilience
-- [ ] Create `PluginLoadResult` model [PENDING]
-- [ ] Implement try-catch wrapper in `PluginLoader` [PENDING]
-- [ ] Add `IPluginHealthMonitor` interface and implementation [PENDING]
-- [ ] Create global exception middleware [PENDING]
-- [ ] Add plugin status endpoint: `GET /admin/plugins/status` [PENDING]
+- [x] Create `PluginLoadResult` model [COMPLETED]
+- [x] Implement try-catch wrapper in `PluginLoader` [COMPLETED]
+- [x] Add `IPluginHealthMonitor` interface and implementation [COMPLETED]
+- [x] Create global exception middleware [COMPLETED]
+- [x] Add plugin status endpoint: `GET /admin/plugins/status` [COMPLETED]
 
 ### Sprint 3.2 – Configuration Management & DI Scoping
 - [ ] Extend `IErpModule` interface for configuration validation [PENDING]
