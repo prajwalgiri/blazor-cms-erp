@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyErpApp.UiRuntimeCache")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+356f55105307947398e9f438fae6dbce81d0f069")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+843fda4d6635106a0aa72d2d5fd58bfb92a7acf6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyErpApp.UiRuntimeCache")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyErpApp.UiRuntimeCache")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

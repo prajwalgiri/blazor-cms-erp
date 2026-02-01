@@ -3,6 +3,7 @@ using MyErpApp.Core.Abstractions;
 using MyErpApp.Core.Plugins;
 using MyErpApp.Infrastructure.Data;
 using MyErpApp.Infrastructure.Repositories;
+using MyErpApp.Infrastructure.Services;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +25,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // Register Repositories
 builder.Services.AddScoped<IUiPageRepository, UiPageRepository>();
+
+// Register Services
+builder.Services.AddScoped<ISnapshotService, SnapshotService>();
 
 // Load Plugins via MEF
 var pluginPath = Path.Combine(builder.Environment.ContentRootPath, "..", "plugins");
