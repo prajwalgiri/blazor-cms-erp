@@ -3,9 +3,9 @@
 ## Phase 1 – Foundation
 
 ### Sprint 1 – Project Bootstrap & Infrastructure
-- [ ] Create solution and base projects (MyErpApp.Host, Core, Infrastructure, UiRuntimeCache, UiRenderer, UiDesigner) [PENDING]
+- [x] Create solution and base projects (MyErpApp.Host, Core, Infrastructure, UiRuntimeCache, UiRenderer, UiDesigner) [COMPLETED]
 - [ ] Configure DI, logging, configuration in `MyErpApp.Host` [PENDING]
-- [ ] Add `DEVELOPER_GUIDE.md` & `ROADMAP.md` to repo [COMPLETED]
+- [x] Add `DEVELOPER_GUIDE.md` & `ROADMAP.md` to repo [COMPLETED]
 - [ ] Integrate basic CI (build + tests on each commit) [PENDING]
 - [ ] Decide environment config strategy (User Secrets / appsettings per env) [PENDING]
 
