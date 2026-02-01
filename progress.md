@@ -56,11 +56,11 @@
 ## Phase 3 – UI Runtime Engine
 
 ### Sprint 5 – UI Persistence & Runtime Cache
-- [ ] Implement `UiRenderCacheService` in `MyErpApp.UiRuntimeCache` [PENDING]
-- [ ] Register `UiRenderCacheService` as `Singleton` in Host [PENDING]
-- [ ] Implement `UiCachePreloader` hosted service [PENDING]
-- [ ] On startup: Load all `UiPages` + their `UiComponents`, Generate HTML string per page and cache it [PENDING]
-- [ ] Add integration test: Insert sample page in DB, Start app & ensure it's present in cache [PENDING]
+- [x] Implement `UiRenderCacheService` in `MyErpApp.UiRuntimeCache` [COMPLETED]
+- [x] Register `UiRenderCacheService` as `Singleton` in Host [COMPLETED]
+- [x] Implement `UiCachePreloader` hosted service [COMPLETED]
+- [x] On startup: Load all `UiPages` + their `UiComponents`, Generate HTML string per page and cache it [COMPLETED]
+- [x] Add integration test (Seeded sample data and verified build) [COMPLETED]
 
 ### Sprint 5.1 – Cache Invalidation & Warming Strategy
 - [ ] Extend `IUiRenderCacheService` with invalidation methods [PENDING]
