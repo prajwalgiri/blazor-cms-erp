@@ -10,11 +10,11 @@
 - [x] Decide environment config strategy (User Secrets / appsettings per env) [COMPLETED]
 
 ### Sprint 2 – Core DB, EF, and Domain Skeleton
-- [ ] Define core models (C#) to match schema [PENDING]
-- [ ] Implement `AppDbContext` with DbSets: `UiPages`, `UiComponents`, `EntitySnapshots` [PENDING]
-- [ ] Add EF Core tools and migration configuration [PENDING]
-- [ ] Run `InitCoreSchema` migration and apply to dev DB [PENDING]
-- [ ] Add minimal repository/service for reading/writing `UiPage` [PENDING]
+- [x] Define core models (C#) to match schema [COMPLETED]
+- [x] Implement `AppDbContext` with DbSets: `UiPages`, `UiComponents`, `EntitySnapshots` [COMPLETED]
+- [x] Add EF Core tools and migration configuration [COMPLETED]
+- [x] Run `InitCoreSchema` migration and apply to dev DB [COMPLETED]
+- [x] Add minimal repository/service for reading/writing `UiPage` [COMPLETED]
 
 ## Phase 2 – Plugin & Module Core
 
