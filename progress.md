@@ -19,11 +19,11 @@
 ## Phase 2 – Plugin & Module Core
 
 ### Sprint 3 – MEF Plugin System & Core Contracts
-- [ ] Add MEF packages [PENDING]
-- [ ] Implement `PluginLoader.LoadPlugins("plugins")` [PENDING]
-- [ ] Define: `IErpModule`, `IUiComponentPlugin`, `IUiRenderExtension` [PENDING]
-- [ ] At startup: Load exported modules and call `RegisterServices`, call `MapEndpoints` [PENDING]
-- [ ] Implement a sample dummy module plugin (e.g. `HelloWorld.Plugin`) [PENDING]
+- [x] Add MEF packages [COMPLETED]
+- [x] Implement `PluginLoader.LoadPlugins("plugins")` [COMPLETED]
+- [x] Define: `IErpModule`, `IUiComponentPlugin`, `IUiRenderExtension` [COMPLETED]
+- [x] At startup: Load exported modules and call `RegisterServices`, call `MapEndpoints` [COMPLETED]
+- [x] Implement a sample dummy module plugin (e.g. `HelloWorld.Plugin`) [COMPLETED]
 
 ### Sprint 4 – Accounting Module (Plugin) & State Snapshots
 - [ ] Create `Accounting.Plugin` project [PENDING]
