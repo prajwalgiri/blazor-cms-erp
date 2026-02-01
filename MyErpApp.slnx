@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MyErpApp.Core/MyErpApp.Core.csproj" />
+    <Project Path="src/MyErpApp.Host/MyErpApp.Host.csproj" />
+    <Project Path="src/MyErpApp.Infrastructure/MyErpApp.Infrastructure.csproj" />
+    <Project Path="src/MyErpApp.UiDesigner/MyErpApp.UiDesigner.csproj" />
+    <Project Path="src/MyErpApp.UiRenderer/MyErpApp.UiRenderer.csproj" />
+    <Project Path="src/MyErpApp.UiRuntimeCache/MyErpApp.UiRuntimeCache.csproj" />
+  </Folder>
+</Solution>
