@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyErpApp.Host")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+843fda4d6635106a0aa72d2d5fd58bfb92a7acf6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+048009ac5e1ca663651a794c4a1751b7a16f063a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyErpApp.Host")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyErpApp.Host")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,24 +11,45 @@ namespace MyErpApp.Core.Plugins
 {
     public static class PluginLoader
     {
-        public static CompositionHost LoadPlugins(string path)
+        public static (CompositionHost Host, List<PluginLoadResult> Results) LoadPlugins(string path)
         {
+            var results = new List<PluginLoadResult>();
             if (!Directory.Exists(path))
             {
                 Directory.CreateDirectory(path);
+                return (new ContainerConfiguration().CreateContainer(), results);
             }
 
-            var assemblies = Directory.GetFiles(path, "*.dll")
-                .Select(AssemblyLoadContext.Default.LoadFromAssemblyPath)
-                .ToList();
+            var assemblies = new List<Assembly>();
+            var files = Directory.GetFiles(path, "*.dll");
 
-            // Also include current assembly if it has any exports (optional)
-            // assemblies.Add(Assembly.GetExecutingAssembly());
+            foreach (var file in files)
+            {
+                var result = new PluginLoadResult
+                {
+                    PluginName = Path.GetFileNameWithoutExtension(file),
+                    AssemblyPath = file
+                };
+
+                try
+                {
+                    var assembly = AssemblyLoadContext.Default.LoadFromAssemblyPath(file);
+                    assemblies.Add(assembly);
+                    result.Status = PluginStatus.Loaded;
+                }
+                catch (Exception ex)
+                {
+                    result.Status = PluginStatus.Failed;
+                    result.ErrorMessage = ex.Message;
+                }
+
+                results.Add(result);
+            }
 
             var configuration = new ContainerConfiguration()
                 .WithAssemblies(assemblies);
 
-            return configuration.CreateContainer();
+            return (configuration.CreateContainer(), results);
         }
     }
 }
