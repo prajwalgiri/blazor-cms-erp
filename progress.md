@@ -26,12 +26,12 @@
 - [x] Implement a sample dummy module plugin (e.g. `HelloWorld.Plugin`) [COMPLETED]
 
 ### Sprint 4 – Accounting Module (Plugin) & State Snapshots
-- [ ] Create `Accounting.Plugin` project [PENDING]
-- [ ] Implement `AccountingModule : IErpModule` [PENDING]
-- [ ] Define `LedgerEntry` model [PENDING]
-- [ ] Add `AccountingDbContext` (if plugin DB separated) or reuse AppDbContext [PENDING]
-- [ ] Implement `SnapshotService` using `EntitySnapshot` table [PENDING]
-- [ ] Add minimal unit tests for snapshot serialize/deserialize [PENDING]
+- [x] Create `Accounting.Plugin` project [COMPLETED]
+- [x] Implement `AccountingModule : IErpModule` [COMPLETED]
+- [x] Define `LedgerEntry` model [COMPLETED]
+- [x] Add `AccountingDbContext` (separate context) [COMPLETED]
+- [x] Implement `SnapshotService` using `EntitySnapshot` table [COMPLETED]
+- [x] Add minimal unit tests for snapshot serialize/deserialize (Integrated into Module tests) [COMPLETED]
 
 ## Phase 3 – UI Runtime Engine
 
