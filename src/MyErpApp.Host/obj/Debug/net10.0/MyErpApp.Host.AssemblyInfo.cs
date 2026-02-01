@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("b7e27e64-50f8-48e0-8339-4972ad31f17d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyErpApp.Host")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee6319c24b80bbaa3957b9b71b1feb647e92060d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32e1fd742dd59cfa69a13e05dfd8399ca791f755")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyErpApp.Host")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyErpApp.Host")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

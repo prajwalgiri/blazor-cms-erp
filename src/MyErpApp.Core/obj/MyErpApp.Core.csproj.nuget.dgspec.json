@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj": {}
+    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj": {}
   },
   "projects": {
-    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj": {
+    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj",
+        "projectUniqueName": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj",
         "projectName": "MyErpApp.Core",
-        "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj",
+        "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\obj\\",
+        "outputPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

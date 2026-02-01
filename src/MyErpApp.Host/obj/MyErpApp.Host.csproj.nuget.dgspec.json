@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Host\\MyErpApp.Host.csproj": {}
+    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Host\\MyErpApp.Host.csproj": {}
   },
   "projects": {
-    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj": {
+    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj",
+        "projectUniqueName": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj",
         "projectName": "MyErpApp.Core",
-        "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj",
+        "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\obj\\",
+        "outputPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -343,14 +343,14 @@
         }
       }
     },
-    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Host\\MyErpApp.Host.csproj": {
+    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Host\\MyErpApp.Host.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Host\\MyErpApp.Host.csproj",
+        "projectUniqueName": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Host\\MyErpApp.Host.csproj",
         "projectName": "MyErpApp.Host",
-        "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Host\\MyErpApp.Host.csproj",
+        "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Host\\MyErpApp.Host.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Host\\obj\\",
+        "outputPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Host\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -371,17 +371,17 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj": {
-                "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj"
+              "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj": {
+                "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj"
               },
-              "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj": {
-                "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj"
+              "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj"
               },
-              "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj": {
-                "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj"
+              "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj": {
+                "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj"
               },
-              "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj": {
-                "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj"
+              "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj": {
+                "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj"
               }
             }
           }
@@ -403,6 +403,16 @@
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[10.0.2, )"
             },
@@ -856,14 +866,14 @@
         }
       }
     },
-    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj": {
+    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj",
         "projectName": "MyErpApp.Infrastructure",
-        "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj",
+        "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\obj\\",
+        "outputPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -883,7 +893,11 @@
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj": {
+                "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -901,6 +915,18 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -1195,14 +1221,14 @@
         }
       }
     },
-    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj": {
+    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj",
+        "projectUniqueName": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj",
         "projectName": "MyErpApp.UiRenderer",
-        "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj",
+        "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\MyErpApp.UiRenderer.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\obj\\",
+        "outputPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRenderer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1534,14 +1560,14 @@
         }
       }
     },
-    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj": {
+    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj",
+        "projectUniqueName": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj",
         "projectName": "MyErpApp.UiRuntimeCache",
-        "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj",
+        "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\MyErpApp.UiRuntimeCache.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\obj\\",
+        "outputPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiRuntimeCache\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

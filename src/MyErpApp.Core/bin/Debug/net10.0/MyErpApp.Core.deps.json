@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "MyErpApp.Core/1.0.0": {
+        "runtime": {
+          "MyErpApp.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyErpApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

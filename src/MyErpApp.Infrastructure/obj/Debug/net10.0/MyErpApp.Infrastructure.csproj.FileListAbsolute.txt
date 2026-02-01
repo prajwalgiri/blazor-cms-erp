@@ -1,0 +1,17 @@
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\bin\Debug\net10.0\MyErpApp.Infrastructure.deps.json
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\bin\Debug\net10.0\MyErpApp.Infrastructure.runtimeconfig.json
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\bin\Debug\net10.0\MyErpApp.Infrastructure.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\bin\Debug\net10.0\MyErpApp.Infrastructure.pdb
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\bin\Debug\net10.0\MyErpApp.Core.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\bin\Debug\net10.0\MyErpApp.Core.pdb
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\MyErpApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\MyErpApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\MyErpApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\MyErpApp.Infrastructure.AssemblyInfo.cs
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\MyErpApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\MyErpApp.D5574A40.Up2Date
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\MyErpApp.Infrastructure.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\refint\MyErpApp.Infrastructure.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\MyErpApp.Infrastructure.pdb
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\MyErpApp.Infrastructure.genruntimeconfig.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\ref\MyErpApp.Infrastructure.dll

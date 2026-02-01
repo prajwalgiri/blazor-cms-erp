@@ -1,0 +1,11 @@
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\bin\Debug\net10.0\MyErpApp.UiRenderer.deps.json
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\bin\Debug\net10.0\MyErpApp.UiRenderer.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\bin\Debug\net10.0\MyErpApp.UiRenderer.pdb
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\MyErpApp.UiRenderer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\MyErpApp.UiRenderer.AssemblyInfoInputs.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\MyErpApp.UiRenderer.AssemblyInfo.cs
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\MyErpApp.UiRenderer.csproj.CoreCompileInputs.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\MyErpApp.UiRenderer.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\refint\MyErpApp.UiRenderer.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\MyErpApp.UiRenderer.pdb
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\ref\MyErpApp.UiRenderer.dll

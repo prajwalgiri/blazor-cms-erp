@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using MyErpApp.Core.Abstractions;
+using MyErpApp.Infrastructure.Data;
+using MyErpApp.Infrastructure.Repositories;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +16,14 @@ builder.Host.UseSerilog();
 
 // Add services to the container.
 builder.Services.AddOpenApi();
+
+// Register AppDbContext
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Register Repositories
+builder.Services.AddScoped<IUiPageRepository, UiPageRepository>();
+
 
 // Register Core/Infrastructure services (Foundations)
 // builder.Services.AddSingleton<IPluginLoader, PluginLoader>(); // Placeholder for future steps

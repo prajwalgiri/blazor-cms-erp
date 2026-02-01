@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyErpApp.UiRenderer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee6319c24b80bbaa3957b9b71b1feb647e92060d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32e1fd742dd59cfa69a13e05dfd8399ca791f755")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyErpApp.UiRenderer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyErpApp.UiRenderer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,11 @@
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\bin\Debug\net10.0\MyErpApp.UiRuntimeCache.deps.json
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\bin\Debug\net10.0\MyErpApp.UiRuntimeCache.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\bin\Debug\net10.0\MyErpApp.UiRuntimeCache.pdb
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\MyErpApp.UiRuntimeCache.GeneratedMSBuildEditorConfig.editorconfig
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\MyErpApp.UiRuntimeCache.AssemblyInfoInputs.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\MyErpApp.UiRuntimeCache.AssemblyInfo.cs
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\MyErpApp.UiRuntimeCache.csproj.CoreCompileInputs.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\MyErpApp.UiRuntimeCache.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\refint\MyErpApp.UiRuntimeCache.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\MyErpApp.UiRuntimeCache.pdb
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\ref\MyErpApp.UiRuntimeCache.dll

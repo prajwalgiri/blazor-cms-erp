@@ -22,42 +22,42 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 7.0
 build_property.EnableCodeStyleSeverity = 
 
-[c:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/App.razor]
+[C:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Pages/Counter.razor]
+[C:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Pages/FetchData.razor]
+[C:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Pages/Index.razor]
+[C:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Shared/SurveyPrompt.razor]
+[C:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/_Imports.razor]
+[C:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Shared/MainLayout.razor]
+[C:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-oxrup8rxui
 
-[c:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Shared/NavMenu.razor]
+[C:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-da60mj4xqr
 
-[c:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Pages/Error.cshtml]
+[C:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Pages/_Host.cshtml]
+[C:/Private Projects/Working/blazor-cms-erp/src/MyErpApp.UiDesigner/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
