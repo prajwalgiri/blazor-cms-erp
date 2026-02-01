@@ -33,11 +33,11 @@
 - [x] Add plugin status endpoint: `GET /admin/plugins/status` [COMPLETED]
 
 ### Sprint 3.2 – Configuration Management & DI Scoping
-- [ ] Extend `IErpModule` interface for configuration validation [PENDING]
-- [ ] Create `appsettings.Plugins.json` template [PENDING]
-- [ ] Implement `PluginConfigurationValidator` [PENDING]
-- [ ] Add DI conflict detection [PENDING]
-- [ ] Document configuration strategy in `CONFIGURATION_GUIDE.md` [PENDING]
+- [x] Extend `IErpModule` interface for configuration validation [COMPLETED]
+- [x] Create `appsettings.Plugins.json` template [COMPLETED]
+- [x] Implement `PluginConfigurationValidator` [COMPLETED]
+- [x] Add DI conflict detection [COMPLETED]
+- [x] Document configuration strategy in `CONFIGURATION_GUIDE.md` [COMPLETED]
 
 ### Sprint 4 – Accounting Module (Plugin) & State Snapshots
 - [x] Create `Accounting.Plugin` project [COMPLETED]
