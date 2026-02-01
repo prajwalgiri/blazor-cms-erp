@@ -23,10 +23,20 @@ namespace Accounting.Plugin
         public void RegisterServices(IServiceCollection services)
         {
             var configuration = services.BuildServiceProvider().GetRequiredService<IConfiguration>();
-            var connectionString = configuration.GetConnectionString("DefaultConnection");
+            var section = configuration.GetSection(GetConfigurationSection());
+            var connectionString = section["ConnectionString"] ?? configuration.GetConnectionString("DefaultConnection");
 
             services.AddDbContext<AccountingDbContext>(options =>
                 options.UseSqlServer(connectionString));
+        }
+
+        public void ValidateConfiguration(IConfiguration config)
+        {
+            var section = config.GetSection(GetConfigurationSection());
+            if (string.IsNullOrEmpty(section["ConnectionString"]) && string.IsNullOrEmpty(config.GetConnectionString("DefaultConnection")))
+            {
+                throw new Exception($"Missing ConnectionString for {Name} module.");
+            }
         }
 
         public void MapEndpoints(IEndpointRouteBuilder app)

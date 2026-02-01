@@ -9,6 +9,11 @@ namespace MyErpApp.Core.Plugins
         string Name { get; }
         void RegisterServices(IServiceCollection services);
         void MapEndpoints(IEndpointRouteBuilder app);
+
+        // New in Sprint 3.2
+        string GetConfigurationSection() => $"Plugins:{Name}";
+        void ValidateConfiguration(Microsoft.Extensions.Configuration.IConfiguration config) { }
+        bool AllowServiceOverride => false;
     }
 
     public interface IUiComponentPlugin

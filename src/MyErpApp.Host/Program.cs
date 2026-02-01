@@ -8,13 +8,16 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configure Serilog
+// Configure Logging
 Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)
     .Enrich.FromLogContext()
     .CreateLogger();
 
 builder.Host.UseSerilog();
+
+// Add Plugin-specific configuration
+builder.Configuration.AddJsonFile("appsettings.Plugins.json", optional: true, reloadOnChange: true);
 
 // Add services to the container.
 builder.Services.AddOpenApi();
@@ -43,16 +46,41 @@ builder.Services.AddSingleton<IPluginHealthMonitor>(healthMonitor);
 
 var modules = pluginHost.GetExports<IErpModule>().ToList();
 
+// Track services to detect conflicts
+var registeredServices = new Dictionary<Type, string>();
+
 foreach (var module in modules)
 {
     try
     {
+        Log.Information("Validating configuration for module: {ModuleName}", module.Name);
+        module.ValidateConfiguration(builder.Configuration);
+
         Log.Information("Registering services for module: {ModuleName}", module.Name);
-        module.RegisterServices(builder.Services);
+
+        // Temporary service collection to detect overlaps
+        var tempServices = new ServiceCollection();
+        module.RegisterServices(tempServices);
+
+        foreach (var service in tempServices)
+        {
+            if (registeredServices.TryGetValue(service.ServiceType, out var otherModule))
+            {
+                if (!module.AllowServiceOverride)
+                {
+                    Log.Warning("DI CONFLICT: Module {ModuleName} is trying to register {ServiceType} which was already registered by {OtherModule}.",
+                        module.Name, service.ServiceType.Name, otherModule);
+                    continue; // Skip this service if override not allowed
+                }
+            }
+
+            registeredServices[service.ServiceType] = module.Name;
+            builder.Services.Add(service);
+        }
     }
     catch (Exception ex)
     {
-        Log.Error(ex, "Failed to register services for module {ModuleName}", module.Name);
+        Log.Error(ex, "Failed to initialize module {ModuleName}", module.Name);
         healthMonitor.RecordFailure(module.Name, ex);
     }
 }
