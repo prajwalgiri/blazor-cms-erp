@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiDesigner\\MyErpApp.UiDesigner.csproj",
+      "projectUniqueName": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiDesigner\\MyErpApp.UiDesigner.csproj",
       "projectName": "MyErpApp.UiDesigner",
-      "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiDesigner\\MyErpApp.UiDesigner.csproj",
+      "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiDesigner\\MyErpApp.UiDesigner.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiDesigner\\obj\\",
+      "outputPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.UiDesigner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

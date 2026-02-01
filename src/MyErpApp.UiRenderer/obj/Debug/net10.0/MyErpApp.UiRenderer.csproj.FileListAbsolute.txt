@@ -10,3 +10,7 @@ C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\MyErpApp.UiRenderer.pdb
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\ref\MyErpApp.UiRenderer.dll
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\MyErpApp.UiRenderer.sourcelink.json
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\MyErpApp.UiRenderer.csproj.AssemblyReference.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\bin\Debug\net10.0\MyErpApp.Core.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\bin\Debug\net10.0\MyErpApp.Core.pdb
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\MyErpApp.E410ED3D.Up2Date

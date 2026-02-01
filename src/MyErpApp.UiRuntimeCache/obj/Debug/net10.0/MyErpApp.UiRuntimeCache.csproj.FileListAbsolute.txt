@@ -10,3 +10,7 @@ C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\MyErpApp.UiRuntimeCache.pdb
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\ref\MyErpApp.UiRuntimeCache.dll
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\MyErpApp.UiRuntimeCache.sourcelink.json
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\bin\Debug\net10.0\MyErpApp.Core.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\bin\Debug\net10.0\MyErpApp.Core.pdb
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\MyErpApp.UiRuntimeCache.csproj.AssemblyReference.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\MyErpApp.87A2A7AD.Up2Date

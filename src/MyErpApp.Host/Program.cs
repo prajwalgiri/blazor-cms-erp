@@ -1,9 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using MyErpApp.Core.Abstractions;
+using MyErpApp.Core.Domain;
 using MyErpApp.Core.Plugins;
 using MyErpApp.Infrastructure.Data;
 using MyErpApp.Infrastructure.Repositories;
 using MyErpApp.Infrastructure.Services;
+using MyErpApp.UiRenderer;
+using MyErpApp.UiRuntimeCache;
+using Microsoft.Extensions.Hosting;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -32,6 +36,9 @@ builder.Services.AddScoped<IUiPageRepository, UiPageRepository>();
 // Register Services
 builder.Services.AddScoped<ISnapshotService, SnapshotService>();
 builder.Services.AddScoped<IMigrationCoordinator, MigrationCoordinator>();
+builder.Services.AddSingleton<IUiRenderCacheService, UiRenderCacheService>();
+builder.Services.AddScoped<IUiPageRenderer, UiPageRenderer>();
+builder.Services.AddHostedService<UiCachePreloader>();
 
 // Load Plugins via MEF
 var pluginPath = Path.Combine(builder.Environment.ContentRootPath, "..", "plugins");
@@ -45,7 +52,15 @@ foreach (var result in loadResults)
 
 builder.Services.AddSingleton<IPluginHealthMonitor>(healthMonitor);
 
+// Discover and register ERP Modules
 var modules = pluginHost.GetExports<IErpModule>().ToList();
+
+// Discover and register UI Component Plugins
+var componentPlugins = pluginHost.GetExports<IUiComponentPlugin>().ToList();
+foreach (var component in componentPlugins)
+{
+    builder.Services.AddSingleton<IUiComponentPlugin>(component);
+}
 
 // Track services to detect conflicts
 var registeredServices = new Dictionary<Type, string>();
@@ -93,6 +108,22 @@ using (var scope = app.Services.CreateScope())
 {
     var coordinator = scope.ServiceProvider.GetRequiredService<IMigrationCoordinator>();
     await coordinator.CoordinateMigrations(modules);
+
+    // Seed sample UI data
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    if (!db.UiPages.Any())
+    {
+        var page = new UiPage { Name = "Home", Title = "Welcome to MyErpApp" };
+        page.Components.Add(new UiComponent 
+        { 
+            Type = "Heading", 
+            Order = 1, 
+            ConfigJson = "{\"Text\": \"Main Dashboard\"}" 
+        });
+        db.UiPages.Add(page);
+        await db.SaveChangesAsync();
+        Log.Information("Seeded sample UI page.");
+    }
 }
 
 // Global Exception Handling

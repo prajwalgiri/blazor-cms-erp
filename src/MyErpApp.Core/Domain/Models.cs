@@ -7,6 +7,7 @@ namespace MyErpApp.Core.Domain
     {
         public Guid Id { get; set; }
         public string Name { get; set; } = string.Empty;
+        public string Title { get; set; } = string.Empty;
         public List<UiComponent> Components { get; set; } = new();
     }
 
@@ -14,6 +15,7 @@ namespace MyErpApp.Core.Domain
     {
         public Guid Id { get; set; }
         public Guid UiPageId { get; set; }
+        public int Order { get; set; }
         public string Type { get; set; } = string.Empty;
         public string TailwindHtml { get; set; } = string.Empty;
         public string ConfigJson { get; set; } = "{}";

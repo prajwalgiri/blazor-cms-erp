@@ -901,6 +901,9 @@
         }
       },
       "MyErpApp.UiRenderer/1.0.0": {
+        "dependencies": {
+          "MyErpApp.Core": "1.0.0"
+        },
         "runtime": {
           "MyErpApp.UiRenderer.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -909,6 +912,9 @@
         }
       },
       "MyErpApp.UiRuntimeCache/1.0.0": {
+        "dependencies": {
+          "MyErpApp.Core": "1.0.0"
+        },
         "runtime": {
           "MyErpApp.UiRuntimeCache.dll": {
             "assemblyVersion": "1.0.0.0",

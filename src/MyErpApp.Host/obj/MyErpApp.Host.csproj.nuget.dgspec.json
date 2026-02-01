@@ -1397,7 +1397,11 @@
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj": {
+                "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -1736,7 +1740,11 @@
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj": {
+                "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -1754,6 +1762,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
