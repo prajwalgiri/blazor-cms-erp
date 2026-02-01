@@ -133,10 +133,10 @@
 ## Phase 6 – Advanced Extensibility
 
 ### Sprint 12 – Additional UI Components & Renderer Plugins
-- [ ] Design config structures for each new component type (JSON) [PENDING]
-- [ ] Implement plugin classes for Button, Label, Select, Checkbox [PENDING]
-- [ ] Test plugin discovery via Designer and runtime [PENDING]
-- [ ] Implement `IUiRenderExtension` (Layout wrapper/analytics) [PENDING]
+- [x] Design config structures for each new component type (JSON) [COMPLETED]
+- [x] Implement plugin classes for Button, Label, Select, Checkbox [COMPLETED]
+- [x] Test plugin discovery via Designer and runtime [COMPLETED]
+- [x] Implement `IUiRenderExtension` (Layout wrapper/analytics) [COMPLETED]
 
 ### Sprint 12.1 – API Versioning & Background Jobs
 - [ ] Implement API versioning strategy (v1/v2) [PENDING]

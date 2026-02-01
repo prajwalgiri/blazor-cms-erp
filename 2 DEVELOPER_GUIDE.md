@@ -238,6 +238,38 @@ public class TextBoxPlugin : IUiComponentPlugin
 
 ---
 
+## UI Component Library
+
+The system provides a set of core UI components via the `CommonUi.Plugin`. These components use Tailwind CSS for styling.
+
+### Available Components
+
+| Component | Type | Display Name | Config Keys | Description |
+|-----------|------|--------------|-------------|-------------|
+| **Heading** | `Heading` | Heading | `Text`, `Level` (1-6) | Standard HTML heading |
+| **Input** | `Input` | Input Box | `Label`, `Placeholder`, `Type` | Text input with label |
+| **Select** | `Select` | Dropdown List | `Label`, `Items` (v1:l1,v2:l2) | Standard dropdown select |
+| **Checkbox** | `Checkbox` | Checkbox | `Label`, `Checked` (true/false) | Checkbox with label |
+| **Button** | `Button` | Button | `Text`, `Class` (Tailwind) | Action button |
+
+### Usage Example (C#)
+```csharp
+page.Components.Add(new UiComponent 
+{ 
+    Type = "Input", 
+    Order = 1, 
+    ConfigJson = "{\"Label\": \"Email\", \"Placeholder\": \"user@example.com\"}" 
+});
+```
+
+### Developing New Components
+1. Create a class implementing `IUiComponentPlugin`.
+2. Add `[Export(typeof(IUiComponentPlugin))]` attribute.
+3. Implement `RenderHtml(string config)` returning Tailwind-compatible HTML.
+4. Build and place the DLL in the `plugins/` folder.
+
+---
+
 ## 🧠 Memory-First UI Runtime
 
 All UI pages are:

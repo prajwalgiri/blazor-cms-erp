@@ -111,18 +111,48 @@ using (var scope = app.Services.CreateScope())
 
     // Seed sample UI data
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    if (!db.UiPages.Any())
+    if (!db.UiPages.Any(p => p.Name == "Showcase"))
     {
-        var page = new UiPage { Name = "Home", Title = "Welcome to MyErpApp" };
+        var page = new UiPage { Name = "Showcase", Title = "Component Showcase" };
+        
         page.Components.Add(new UiComponent 
         { 
             Type = "Heading", 
             Order = 1, 
-            ConfigJson = "{\"Text\": \"Main Dashboard\"}" 
+            ConfigJson = "{\"Text\": \"UI Component Library\", \"Level\": \"1\"}" 
         });
+
+        page.Components.Add(new UiComponent 
+        { 
+            Type = "Input", 
+            Order = 2, 
+            ConfigJson = "{\"Label\": \"Full Name\", \"Placeholder\": \"John Doe\"}" 
+        });
+
+        page.Components.Add(new UiComponent 
+        { 
+            Type = "Select", 
+            Order = 3, 
+            ConfigJson = "{\"Label\": \"Department\", \"Items\": \"it:IT,hr:HR,sales:Sales\"}" 
+        });
+
+        page.Components.Add(new UiComponent 
+        { 
+            Type = "Checkbox", 
+            Order = 4, 
+            ConfigJson = "{\"Label\": \"I accept the terms and conditions\", \"Checked\": \"true\"}" 
+        });
+
+        page.Components.Add(new UiComponent 
+        { 
+            Type = "Button", 
+            Order = 5, 
+            ConfigJson = "{\"Text\": \"Submit Request\"}" 
+        });
+
         db.UiPages.Add(page);
         await db.SaveChangesAsync();
-        Log.Information("Seeded sample UI page.");
+        Log.Information("Seeded Component Showcase page.");
     }
 }
 
@@ -171,10 +201,35 @@ app.MapGet("/health", () => Results.Ok(new
 {
     Status = "Healthy",
     Timestamp = DateTime.UtcNow,
-    LoadedModules = modules.Select(m => m.Name)
+    LoadedModules = modules.Select(m => m.Name),
+    LoadedComponents = componentPlugins.Select(c => c.DisplayName)
 }));
 
-app.MapGet("/admin/plugins/status", (IPluginHealthMonitor monitor) =>
+app.MapGet("/admin/plugins/status", (IPluginHealthMonitor monitor) => 
     Results.Ok(monitor.GetStatus()));
+
+app.MapGet("/ui/render/{pageName}", async (string pageName, IUiRenderCacheService cache) => 
+{
+    var html = cache.GetHtml(pageName);
+    if (html == null) return Results.NotFound($"Page {pageName} not found in cache.");
+
+    var fullHtml = $@"
+        <!DOCTYPE html>
+        <html lang=""en"">
+        <head>
+            <meta charset=""UTF-8"">
+            <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+            <script src=""https://cdn.tailwindcss.com""></script>
+            <title>{pageName} - MyErpApp</title>
+        </head>
+        <body class=""bg-gray-50 text-gray-900"">
+            <div class=""max-w-4xl mx-auto p-8 bg-white shadow-lg mt-10 rounded-lg"">
+                {html}
+            </div>
+        </body>
+        </html>";
+
+    return Results.Content(fullHtml, "text/html");
+});
 
 app.Run();
