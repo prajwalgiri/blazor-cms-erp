@@ -25,6 +25,20 @@
 - [x] At startup: Load exported modules and call `RegisterServices`, call `MapEndpoints` [COMPLETED]
 - [x] Implement a sample dummy module plugin (e.g. `HelloWorld.Plugin`) [COMPLETED]
 
+### Sprint 3.1 – Plugin Error Handling & Resilience
+- [ ] Create `PluginLoadResult` model [PENDING]
+- [ ] Implement try-catch wrapper in `PluginLoader` [PENDING]
+- [ ] Add `IPluginHealthMonitor` interface and implementation [PENDING]
+- [ ] Create global exception middleware [PENDING]
+- [ ] Add plugin status endpoint: `GET /admin/plugins/status` [PENDING]
+
+### Sprint 3.2 – Configuration Management & DI Scoping
+- [ ] Extend `IErpModule` interface for configuration validation [PENDING]
+- [ ] Create `appsettings.Plugins.json` template [PENDING]
+- [ ] Implement `PluginConfigurationValidator` [PENDING]
+- [ ] Add DI conflict detection [PENDING]
+- [ ] Document configuration strategy in `CONFIGURATION_GUIDE.md` [PENDING]
+
 ### Sprint 4 – Accounting Module (Plugin) & State Snapshots
 - [x] Create `Accounting.Plugin` project [COMPLETED]
 - [x] Implement `AccountingModule : IErpModule` [COMPLETED]
@@ -33,6 +47,12 @@
 - [x] Implement `SnapshotService` using `EntitySnapshot` table [COMPLETED]
 - [x] Add minimal unit tests for snapshot serialize/deserialize (Integrated into Module tests) [COMPLETED]
 
+### Sprint 4.1 – Database Migration Coordination
+- [ ] Extend `IErpModule` with migration methods [PENDING]
+- [ ] Create `PluginMigrations` history table [PENDING]
+- [ ] Implement `MigrationCoordinator` (dependency graph, execution order) [PENDING]
+- [ ] Add migration CLI commands (`migrate:plugins`, `rollback:plugin`) [PENDING]
+
 ## Phase 3 – UI Runtime Engine
 
 ### Sprint 5 – UI Persistence & Runtime Cache
@@ -40,7 +60,14 @@
 - [ ] Register `UiRenderCacheService` as `Singleton` in Host [PENDING]
 - [ ] Implement `UiCachePreloader` hosted service [PENDING]
 - [ ] On startup: Load all `UiPages` + their `UiComponents`, Generate HTML string per page and cache it [PENDING]
-- [ ] Add integration test: Insert sample page in DB, Start app & ensure it’s present in cache [PENDING]
+- [ ] Add integration test: Insert sample page in DB, Start app & ensure it's present in cache [PENDING]
+
+### Sprint 5.1 – Cache Invalidation & Warming Strategy
+- [ ] Extend `IUiRenderCacheService` with invalidation methods [PENDING]
+- [ ] Implement `LruCacheStrategy` [PENDING]
+- [ ] Add `RedisCacheAdapter` (optional/distributed) [PENDING]
+- [ ] Create cache invalidation triggers (on save/manual) [PENDING]
+- [ ] Add cache statistics and dashboard [PENDING]
 
 ### Sprint 6 – UI Rendering API & Preload
 - [ ] Implement `UiRenderController` in `MyErpApp.UiRenderer` [PENDING]
@@ -60,37 +87,79 @@
 
 ### Sprint 8 – Canvas, Sidebar Config & Save Flow
 - [ ] Implement component model on client [PENDING]
-- [ ] Implement “Add component” flow [PENDING]
+- [ ] Implement "Add component" flow [PENDING]
 - [ ] Implement sidebar binding [PENDING]
 - [ ] Implement save call [PENDING]
+
+### Sprint 8.1 – UI Versioning & State Management
+- [ ] Extend `UiPages` table with status/version info [PENDING]
+- [ ] Create `UiPageVersions` table [PENDING]
+- [ ] Implement undo/redo in Blazor [PENDING]
+- [ ] Add publish workflow [PENDING]
+- [ ] Implement conflict detection for concurrent edits [PENDING]
 
 ### Sprint 9 – Load/Edit Existing Pages & Live Preview
 - [ ] Implement API to retrieve a page with components by name [PENDING]
 - [ ] In Designer: Load selected page, Map components to internal model for editing [PENDING]
 - [ ] Implement preview component [PENDING]
-- [ ] Add “Save & Preview” button [PENDING]
+- [ ] Add "Save & Preview" button [PENDING]
 
-## Phase 5 – Advanced Extensibility
+## Phase 5 – Security & Observability
 
-### Sprint 10 – Additional UI Components & Renderer Plugins
+### Sprint 10 – Security & Authorization Framework
+- [ ] Implement authentication (JWT/Cookie) [PENDING]
+- [ ] Implement Role-Based Access Control (RBAC) [PENDING]
+- [ ] Add API Key management system [PENDING]
+- [ ] Implement rate limiting middleware [PENDING]
+
+### Sprint 10.1 – Plugin Sandboxing & Isolation
+- [ ] Implement database access control per plugin [PENDING]
+- [ ] Add resource monitoring (Memory/CPU per plugin) [PENDING]
+- [ ] Implement plugin action audit trail [PENDING]
+- [ ] Document security policies in `SECURITY_GUIDE.md` [PENDING]
+
+### Sprint 11 – Observability, Logging & Health Checks
+- [ ] Implement structured logging with correlation IDs [PENDING]
+- [ ] Create health check framework (aggregate + per-plugin) [PENDING]
+- [ ] Add metrics collection and OpenTelemetry integration [PENDING]
+- [ ] Create metrics dashboard [PENDING]
+
+### Sprint 11.1 – Plugin Versioning & Compatibility
+- [ ] Create `PluginMetadataAttribute` [PENDING]
+- [ ] Implement semantic versioning and compatibility checks [PENDING]
+- [ ] Create `PluginDependencyResolver` [PENDING]
+- [ ] Add plugin metadata and version history tables [PENDING]
+
+## Phase 6 – Advanced Extensibility
+
+### Sprint 12 – Additional UI Components & Renderer Plugins
 - [ ] Design config structures for each new component type (JSON) [PENDING]
-- [ ] Implement plugin classes [PENDING]
+- [ ] Implement plugin classes for Button, Label, Select, Checkbox [PENDING]
 - [ ] Test plugin discovery via Designer and runtime [PENDING]
-- [ ] Implement `IUiRenderExtension` [PENDING]
-- [ ] Update runtime engine to invoke all registered `IUiRenderExtension` plugins in order [PENDING]
+- [ ] Implement `IUiRenderExtension` (Layout wrapper/analytics) [PENDING]
 
-### Sprint 11 – Plugin Management & Observability
-- [ ] On plugin discovery, record plugin info into `RegisteredPlugins` [PENDING]
-- [ ] Expose read-only endpoint listing all plugins [PENDING]
-- [ ] Add logging around plugin load and UI render [PENDING]
-- [ ] Add basic metrics and dashboards [PENDING]
+### Sprint 12.1 – API Versioning & Background Jobs
+- [ ] Implement API versioning strategy (v1/v2) [PENDING]
+- [ ] Create background job infrastructure (Hangfire/Quartz) [PENDING]
+- [ ] Add scheduled task support per module [PENDING]
+- [ ] Implement monitoring for long-running operations [PENDING]
 
-## Phase 6 – Hardening & Release
+### Sprint 13 – Testing Infrastructure & Harness
+- [ ] Create `PluginTestHarness` utility [PENDING]
+- [ ] Implement integration test base classes [PENDING]
+- [ ] Add UI Designer test framework (simulation) [PENDING]
+- [ ] Create test data generators [PENDING]
 
-### Sprint 12 – Performance, Security & Launch Prep
+## Phase 7 – Hardening & Release
+
+### Sprint 14 – Performance, Security, and Launch Prep
 - [ ] Load test UI rendering to validate throughput [PENDING]
-- [ ] Profile memory for large number of pages/components [PENDING]
-- [ ] Introduce optional eviction or config flags for cache strategy [PENDING]
-- [ ] Integrate authentication (e.g. JWT, cookie-based) [PENDING]
-- [ ] Add role-based authorization for designer and admin APIs [PENDING]
-- [ ] Clean up logs, add error handling, and finalize documentation [PENDING]
+- [ ] Profile memory and optimize database queries [PENDING]
+- [ ] Conduct security audit (SQLi, XSS, CSRF) [PENDING]
+- [ ] Create production deployment checklist [PENDING]
+
+### Sprint 15 – File Storage & Localization
+- [ ] Create file storage abstraction and adapters (Local/Azure/S3) [PENDING]
+- [ ] Implement file upload handling in UI Designer [PENDING]
+- [ ] Add localization framework and multi-language support [PENDING]
+- [ ] Document file storage strategy [PENDING]
