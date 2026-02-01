@@ -1,0 +1,14 @@
+C:\Private Projects\Working\blazor-cms-erp\plugins\HelloWorld.Plugin.deps.json
+C:\Private Projects\Working\blazor-cms-erp\plugins\HelloWorld.Plugin.dll
+C:\Private Projects\Working\blazor-cms-erp\plugins\HelloWorld.Plugin.pdb
+C:\Private Projects\Working\blazor-cms-erp\src\Plugins\HelloWorld.Plugin\obj\Release\net10.0\HelloWorld.Plugin.csproj.AssemblyReference.cache
+C:\Private Projects\Working\blazor-cms-erp\src\Plugins\HelloWorld.Plugin\obj\Release\net10.0\HelloWorld.Plugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Private Projects\Working\blazor-cms-erp\src\Plugins\HelloWorld.Plugin\obj\Release\net10.0\HelloWorld.Plugin.AssemblyInfoInputs.cache
+C:\Private Projects\Working\blazor-cms-erp\src\Plugins\HelloWorld.Plugin\obj\Release\net10.0\HelloWorld.Plugin.AssemblyInfo.cs
+C:\Private Projects\Working\blazor-cms-erp\src\Plugins\HelloWorld.Plugin\obj\Release\net10.0\HelloWorld.Plugin.csproj.CoreCompileInputs.cache
+C:\Private Projects\Working\blazor-cms-erp\src\Plugins\HelloWorld.Plugin\obj\Release\net10.0\HelloWorld.Plugin.sourcelink.json
+C:\Private Projects\Working\blazor-cms-erp\src\Plugins\HelloWorld.Plugin\obj\Release\net10.0\HelloWor.9D396B73.Up2Date
+C:\Private Projects\Working\blazor-cms-erp\src\Plugins\HelloWorld.Plugin\obj\Release\net10.0\HelloWorld.Plugin.dll
+C:\Private Projects\Working\blazor-cms-erp\src\Plugins\HelloWorld.Plugin\obj\Release\net10.0\refint\HelloWorld.Plugin.dll
+C:\Private Projects\Working\blazor-cms-erp\src\Plugins\HelloWorld.Plugin\obj\Release\net10.0\HelloWorld.Plugin.pdb
+C:\Private Projects\Working\blazor-cms-erp\src\Plugins\HelloWorld.Plugin\obj\Release\net10.0\ref\HelloWorld.Plugin.dll

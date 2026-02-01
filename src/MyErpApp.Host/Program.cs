@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MyErpApp.Core.Abstractions;
+using MyErpApp.Core.Plugins;
 using MyErpApp.Infrastructure.Data;
 using MyErpApp.Infrastructure.Repositories;
 using Serilog;
@@ -24,9 +25,16 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Register Repositories
 builder.Services.AddScoped<IUiPageRepository, UiPageRepository>();
 
+// Load Plugins via MEF
+var pluginPath = Path.Combine(builder.Environment.ContentRootPath, "..", "plugins");
+var pluginHost = PluginLoader.LoadPlugins(pluginPath);
+var modules = pluginHost.GetExports<IErpModule>().ToList();
 
-// Register Core/Infrastructure services (Foundations)
-// builder.Services.AddSingleton<IPluginLoader, PluginLoader>(); // Placeholder for future steps
+foreach (var module in modules)
+{
+    Log.Information("Registering services for module: {ModuleName}", module.Name);
+    module.RegisterServices(builder.Services);
+}
 
 var app = builder.Build();
 
@@ -40,8 +48,20 @@ app.UseHttpsRedirection();
 
 app.UseSerilogRequestLogging();
 
+// Map Module Endpoints
+foreach (var module in modules)
+{
+    Log.Information("Mapping endpoints for module: {ModuleName}", module.Name);
+    module.MapEndpoints(app);
+}
+
 app.MapGet("/", () => "ERP-CMS Modular Monolith Host Running.");
 
-app.MapGet("/health", () => Results.Ok(new { Status = "Healthy", Timestamp = DateTime.UtcNow }));
+app.MapGet("/health", () => Results.Ok(new
+{
+    Status = "Healthy",
+    Timestamp = DateTime.UtcNow,
+    LoadedModules = modules.Select(m => m.Name)
+}));
 
 app.Run();

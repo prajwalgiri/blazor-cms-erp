@@ -9,3 +9,5 @@ C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Debug\net10.0\M
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Debug\net10.0\refint\MyErpApp.Core.dll
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Debug\net10.0\MyErpApp.Core.pdb
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Debug\net10.0\ref\MyErpApp.Core.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Debug\net10.0\MyErpApp.Core.csproj.AssemblyReference.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Debug\net10.0\MyErpApp.Core.sourcelink.json

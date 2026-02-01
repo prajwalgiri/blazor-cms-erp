@@ -9,3 +9,4 @@ C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\refint\MyErpApp.UiRuntimeCache.dll
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\MyErpApp.UiRuntimeCache.pdb
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\ref\MyErpApp.UiRuntimeCache.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRuntimeCache\obj\Debug\net10.0\MyErpApp.UiRuntimeCache.sourcelink.json

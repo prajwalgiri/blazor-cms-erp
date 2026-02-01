@@ -32,3 +32,4 @@ C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiDesigner\obj\Debug\net
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiDesigner\obj\Debug\net7.0\MyErpApp.UiDesigner.pdb
 c:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiDesigner\obj\Debug\net7.0\MyErpApp.UiDesigner.genruntimeconfig.cache
 c:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiDesigner\obj\Debug\net7.0\ref\MyErpApp.UiDesigner.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiDesigner\obj\Debug\net7.0\MyErpApp.UiDesigner.sourcelink.json

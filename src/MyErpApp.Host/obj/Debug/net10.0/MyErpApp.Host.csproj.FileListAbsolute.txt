@@ -173,3 +173,4 @@ C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Host\obj\Debug\net10.0\r
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Host\obj\Debug\net10.0\MyErpApp.Host.pdb
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Host\obj\Debug\net10.0\MyErpApp.Host.genruntimeconfig.cache
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Host\obj\Debug\net10.0\ref\MyErpApp.Host.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Host\obj\Debug\net10.0\MyErpApp.Host.sourcelink.json

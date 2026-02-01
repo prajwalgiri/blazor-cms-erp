@@ -9,3 +9,4 @@ C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\refint\MyErpApp.UiRenderer.dll
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\MyErpApp.UiRenderer.pdb
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\ref\MyErpApp.UiRenderer.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.UiRenderer\obj\Debug\net10.0\MyErpApp.UiRenderer.sourcelink.json

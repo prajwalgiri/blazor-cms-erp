@@ -1,0 +1,13 @@
+C:\Private Projects\Working\blazor-cms-erp\plugins\MyErpApp.Core.deps.json
+C:\Private Projects\Working\blazor-cms-erp\plugins\MyErpApp.Core.dll
+C:\Private Projects\Working\blazor-cms-erp\plugins\MyErpApp.Core.pdb
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Release\net10.0\MyErpApp.Core.csproj.AssemblyReference.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Release\net10.0\MyErpApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Release\net10.0\MyErpApp.Core.AssemblyInfoInputs.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Release\net10.0\MyErpApp.Core.AssemblyInfo.cs
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Release\net10.0\MyErpApp.Core.csproj.CoreCompileInputs.cache
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Release\net10.0\MyErpApp.Core.sourcelink.json
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Release\net10.0\MyErpApp.Core.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Release\net10.0\refint\MyErpApp.Core.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Release\net10.0\MyErpApp.Core.pdb
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Core\obj\Release\net10.0\ref\MyErpApp.Core.dll

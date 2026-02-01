@@ -15,3 +15,4 @@ C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\MyErpApp.Infrastructure.pdb
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\MyErpApp.Infrastructure.genruntimeconfig.cache
 C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\ref\MyErpApp.Infrastructure.dll
+C:\Private Projects\Working\blazor-cms-erp\src\MyErpApp.Infrastructure\obj\Debug\net10.0\MyErpApp.Infrastructure.sourcelink.json

@@ -199,7 +199,7 @@
           "Microsoft.CodeAnalysis.CSharp": "5.0.0",
           "Microsoft.CodeAnalysis.Common": "5.0.0",
           "Microsoft.CodeAnalysis.Workspaces.Common": "5.0.0",
-          "System.Composition": "9.0.0"
+          "System.Composition": "10.0.2"
         },
         "runtime": {
           "lib/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll": {
@@ -253,7 +253,7 @@
         "dependencies": {
           "Humanizer.Core": "2.14.1",
           "Microsoft.CodeAnalysis.Common": "5.0.0",
-          "System.Composition": "9.0.0"
+          "System.Composition": "10.0.2"
         },
         "runtime": {
           "lib/net9.0/Microsoft.CodeAnalysis.Workspaces.dll": {
@@ -310,7 +310,7 @@
           "Microsoft.CodeAnalysis.Workspaces.Common": "5.0.0",
           "Microsoft.VisualStudio.SolutionPersistence": "1.0.52",
           "Newtonsoft.Json": "13.0.3",
-          "System.Composition": "9.0.0"
+          "System.Composition": "10.0.2"
         },
         "runtime": {
           "lib/net9.0/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll": {
@@ -778,63 +778,63 @@
           }
         }
       },
-      "System.Composition/9.0.0": {
+      "System.Composition/10.0.2": {
         "dependencies": {
-          "System.Composition.AttributedModel": "9.0.0",
-          "System.Composition.Convention": "9.0.0",
-          "System.Composition.Hosting": "9.0.0",
-          "System.Composition.Runtime": "9.0.0",
-          "System.Composition.TypedParts": "9.0.0"
+          "System.Composition.AttributedModel": "10.0.2",
+          "System.Composition.Convention": "10.0.2",
+          "System.Composition.Hosting": "10.0.2",
+          "System.Composition.Runtime": "10.0.2",
+          "System.Composition.TypedParts": "10.0.2"
         }
       },
-      "System.Composition.AttributedModel/9.0.0": {
+      "System.Composition.AttributedModel/10.0.2": {
         "runtime": {
-          "lib/net9.0/System.Composition.AttributedModel.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+          "lib/net10.0/System.Composition.AttributedModel.dll": {
+            "assemblyVersion": "10.0.0.2",
+            "fileVersion": "10.0.225.61305"
           }
         }
       },
-      "System.Composition.Convention/9.0.0": {
+      "System.Composition.Convention/10.0.2": {
         "dependencies": {
-          "System.Composition.AttributedModel": "9.0.0"
+          "System.Composition.AttributedModel": "10.0.2"
         },
         "runtime": {
-          "lib/net9.0/System.Composition.Convention.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+          "lib/net10.0/System.Composition.Convention.dll": {
+            "assemblyVersion": "10.0.0.2",
+            "fileVersion": "10.0.225.61305"
           }
         }
       },
-      "System.Composition.Hosting/9.0.0": {
+      "System.Composition.Hosting/10.0.2": {
         "dependencies": {
-          "System.Composition.Runtime": "9.0.0"
+          "System.Composition.Runtime": "10.0.2"
         },
         "runtime": {
-          "lib/net9.0/System.Composition.Hosting.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+          "lib/net10.0/System.Composition.Hosting.dll": {
+            "assemblyVersion": "10.0.0.2",
+            "fileVersion": "10.0.225.61305"
           }
         }
       },
-      "System.Composition.Runtime/9.0.0": {
+      "System.Composition.Runtime/10.0.2": {
         "runtime": {
-          "lib/net9.0/System.Composition.Runtime.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+          "lib/net10.0/System.Composition.Runtime.dll": {
+            "assemblyVersion": "10.0.0.2",
+            "fileVersion": "10.0.225.61305"
           }
         }
       },
-      "System.Composition.TypedParts/9.0.0": {
+      "System.Composition.TypedParts/10.0.2": {
         "dependencies": {
-          "System.Composition.AttributedModel": "9.0.0",
-          "System.Composition.Hosting": "9.0.0",
-          "System.Composition.Runtime": "9.0.0"
+          "System.Composition.AttributedModel": "10.0.2",
+          "System.Composition.Hosting": "10.0.2",
+          "System.Composition.Runtime": "10.0.2"
         },
         "runtime": {
-          "lib/net9.0/System.Composition.TypedParts.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+          "lib/net10.0/System.Composition.TypedParts.dll": {
+            "assemblyVersion": "10.0.0.2",
+            "fileVersion": "10.0.225.61305"
           }
         }
       },
@@ -878,6 +878,9 @@
         }
       },
       "MyErpApp.Core/1.0.0": {
+        "dependencies": {
+          "System.Composition": "10.0.2"
+        },
         "runtime": {
           "MyErpApp.Core.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -1229,47 +1232,47 @@
       "path": "system.codedom/6.0.0",
       "hashPath": "system.codedom.6.0.0.nupkg.sha512"
     },
-    "System.Composition/9.0.0": {
+    "System.Composition/10.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3Djj70fFTraOarSKmRnmRy/zm4YurICm+kiCtI0dYRqGJnLX6nJ+G3WYuFJ173cAPax/gh96REcbNiVqcrypFQ==",
-      "path": "system.composition/9.0.0",
-      "hashPath": "system.composition.9.0.0.nupkg.sha512"
+      "sha512": "sha512-bBKd6VqiAqD4GRGKb1Qj+QDnNNHV1QDlbeN9jXWuXKLBAVHJRqtVfmRq9Q4RkJcc4MNAayMtNGYgMhXYt5jTLw==",
+      "path": "system.composition/10.0.2",
+      "hashPath": "system.composition.10.0.2.nupkg.sha512"
     },
-    "System.Composition.AttributedModel/9.0.0": {
+    "System.Composition.AttributedModel/10.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iri00l/zIX9g4lHMY+Nz0qV1n40+jFYAmgsaiNn16xvt2RDwlqByNG4wgblagnDYxm3YSQQ0jLlC/7Xlk9CzyA==",
-      "path": "system.composition.attributedmodel/9.0.0",
-      "hashPath": "system.composition.attributedmodel.9.0.0.nupkg.sha512"
+      "sha512": "sha512-Vq11FCgkOMHN4q8IrXOcVm5FA+06wXBhza5c8qQqOUjJic9Cy4gzLoa4E5a5BQa+Vws/AJaL3pX8eeM0agl0ZQ==",
+      "path": "system.composition.attributedmodel/10.0.2",
+      "hashPath": "system.composition.attributedmodel.10.0.2.nupkg.sha512"
     },
-    "System.Composition.Convention/9.0.0": {
+    "System.Composition.Convention/10.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+vuqVP6xpi582XIjJi6OCsIxuoTZfR0M7WWufk3uGDeCl3wGW6KnpylUJ3iiXdPByPE0vR5TjJgR6hDLez4FQg==",
-      "path": "system.composition.convention/9.0.0",
-      "hashPath": "system.composition.convention.9.0.0.nupkg.sha512"
+      "sha512": "sha512-dCXgoWziEULVjqhjtLFf1NtcTZ1q5UTalOEzSBz7yhoQqjBBhu8gqyfyBFsVZSVIGHJ6EgIj5x79HaCOYwk6LA==",
+      "path": "system.composition.convention/10.0.2",
+      "hashPath": "system.composition.convention.10.0.2.nupkg.sha512"
     },
-    "System.Composition.Hosting/9.0.0": {
+    "System.Composition.Hosting/10.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OFqSeFeJYr7kHxDfaViGM1ymk7d4JxK//VSoNF9Ux0gpqkLsauDZpu89kTHHNdCWfSljbFcvAafGyBoY094btQ==",
-      "path": "system.composition.hosting/9.0.0",
-      "hashPath": "system.composition.hosting.9.0.0.nupkg.sha512"
+      "sha512": "sha512-1GzhkoAyGUQHrRcBNuUuhLvvTSiU8ycRF8UVzftnzlA+s4BJR5E6nfSvClH17JJvfLLLEU8YPK/Wjj9RmDEX8w==",
+      "path": "system.composition.hosting/10.0.2",
+      "hashPath": "system.composition.hosting.10.0.2.nupkg.sha512"
     },
-    "System.Composition.Runtime/9.0.0": {
+    "System.Composition.Runtime/10.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-w1HOlQY1zsOWYussjFGZCEYF2UZXgvoYnS94NIu2CBnAGMbXFAX8PY8c92KwUItPmowal68jnVLBCzdrWLeEKA==",
-      "path": "system.composition.runtime/9.0.0",
-      "hashPath": "system.composition.runtime.9.0.0.nupkg.sha512"
+      "sha512": "sha512-+6e/uVS9xtcBgHort2ow0qp9FH0XDaLMKNdflCE5QkreIMz/i7dc2VyLySnKq7BmVTtcWE1W1CdcIM4Glhv52w==",
+      "path": "system.composition.runtime/10.0.2",
+      "hashPath": "system.composition.runtime.10.0.2.nupkg.sha512"
     },
-    "System.Composition.TypedParts/9.0.0": {
+    "System.Composition.TypedParts/10.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aRZlojCCGEHDKqh43jaDgaVpYETsgd7Nx4g1zwLKMtv4iTo0627715ajEFNpEEBTgLmvZuv8K0EVxc3sM4NWJA==",
-      "path": "system.composition.typedparts/9.0.0",
-      "hashPath": "system.composition.typedparts.9.0.0.nupkg.sha512"
+      "sha512": "sha512-lO/zSor+OU/GGJk0nVQvHTahdNtyrqhxG7H8sS0l61Q+zh/XEdrg9MZW3c292PQ8nSTRPtvaFq1CztuthvMkKw==",
+      "path": "system.composition.typedparts/10.0.2",
+      "hashPath": "system.composition.typedparts.10.0.2.nupkg.sha512"
     },
     "System.Configuration.ConfigurationManager/9.0.4": {
       "type": "package",
