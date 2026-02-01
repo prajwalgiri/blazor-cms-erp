@@ -31,6 +31,7 @@ builder.Services.AddScoped<IUiPageRepository, UiPageRepository>();
 
 // Register Services
 builder.Services.AddScoped<ISnapshotService, SnapshotService>();
+builder.Services.AddScoped<IMigrationCoordinator, MigrationCoordinator>();
 
 // Load Plugins via MEF
 var pluginPath = Path.Combine(builder.Environment.ContentRootPath, "..", "plugins");
@@ -86,6 +87,13 @@ foreach (var module in modules)
 }
 
 var app = builder.Build();
+
+// Coordinated Migrations
+using (var scope = app.Services.CreateScope())
+{
+    var coordinator = scope.ServiceProvider.GetRequiredService<IMigrationCoordinator>();
+    await coordinator.CoordinateMigrations(modules);
+}
 
 // Global Exception Handling
 app.Use(async (context, next) =>

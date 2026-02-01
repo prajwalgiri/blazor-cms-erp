@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UR7ZcNLHf1Y=",
+  "dgSpecHash": "8eHKypsrXSQ=",
   "success": true,
-  "projectFilePath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj",
+  "projectFilePath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

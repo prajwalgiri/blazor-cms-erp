@@ -12,6 +12,7 @@ namespace MyErpApp.Infrastructure.Data
         public DbSet<UiPage> UiPages { get; set; } = null!;
         public DbSet<UiComponent> UiComponents { get; set; } = null!;
         public DbSet<EntitySnapshot> EntitySnapshots { get; set; } = null!;
+        public DbSet<PluginMigration> PluginMigrations { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

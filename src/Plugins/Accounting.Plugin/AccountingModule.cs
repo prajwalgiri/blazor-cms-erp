@@ -39,6 +39,13 @@ namespace Accounting.Plugin
             }
         }
 
+        public async Task ApplyMigrations(IServiceProvider serviceProvider)
+        {
+            using var scope = serviceProvider.CreateScope();
+            var context = scope.ServiceProvider.GetRequiredService<AccountingDbContext>();
+            await context.Database.MigrateAsync();
+        }
+
         public void MapEndpoints(IEndpointRouteBuilder app)
         {
             var group = app.MapGroup("/accounting");

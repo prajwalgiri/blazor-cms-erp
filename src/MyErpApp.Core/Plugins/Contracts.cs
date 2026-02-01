@@ -14,6 +14,11 @@ namespace MyErpApp.Core.Plugins
         string GetConfigurationSection() => $"Plugins:{Name}";
         void ValidateConfiguration(Microsoft.Extensions.Configuration.IConfiguration config) { }
         bool AllowServiceOverride => false;
+
+        // New in Sprint 4.1
+        int MigrationPriority => 100;
+        IEnumerable<string> DependsOnModules => Array.Empty<string>();
+        Task ApplyMigrations(IServiceProvider serviceProvider) => Task.CompletedTask;
     }
 
     public interface IUiComponentPlugin

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj": {}
+    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj": {}
   },
   "projects": {
     "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Core\\MyErpApp.Core.csproj": {
@@ -492,14 +492,14 @@
         }
       }
     },
-    "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj": {
+    "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj",
+        "projectUniqueName": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj",
         "projectName": "MyErpApp.Infrastructure",
-        "projectPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj",
+        "projectPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\MyErpApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\obj\\",
+        "outputPath": "c:\\Private Projects\\Working\\blazor-cms-erp\\src\\MyErpApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
