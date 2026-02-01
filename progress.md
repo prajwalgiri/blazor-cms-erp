@@ -4,10 +4,10 @@
 
 ### Sprint 1 – Project Bootstrap & Infrastructure
 - [x] Create solution and base projects (MyErpApp.Host, Core, Infrastructure, UiRuntimeCache, UiRenderer, UiDesigner) [COMPLETED]
-- [ ] Configure DI, logging, configuration in `MyErpApp.Host` [PENDING]
+- [x] Configure DI, logging, configuration in `MyErpApp.Host` [COMPLETED]
 - [x] Add `DEVELOPER_GUIDE.md` & `ROADMAP.md` to repo [COMPLETED]
 - [ ] Integrate basic CI (build + tests on each commit) [PENDING]
-- [ ] Decide environment config strategy (User Secrets / appsettings per env) [PENDING]
+- [x] Decide environment config strategy (User Secrets / appsettings per env) [COMPLETED]
 
 ### Sprint 2 – Core DB, EF, and Domain Skeleton
 - [ ] Define core models (C#) to match schema [PENDING]
