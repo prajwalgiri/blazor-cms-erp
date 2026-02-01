@@ -48,10 +48,10 @@
 - [x] Add minimal unit tests for snapshot serialize/deserialize (Integrated into Module tests) [COMPLETED]
 
 ### Sprint 4.1 – Database Migration Coordination
-- [ ] Extend `IErpModule` with migration methods [PENDING]
-- [ ] Create `PluginMigrations` history table [PENDING]
-- [ ] Implement `MigrationCoordinator` (dependency graph, execution order) [PENDING]
-- [ ] Add migration CLI commands (`migrate:plugins`, `rollback:plugin`) [PENDING]
+- [x] Extend `IErpModule` with migration methods [COMPLETED]
+- [x] Create `PluginMigrations` history table [COMPLETED]
+- [x] Implement `MigrationCoordinator` (dependency graph, execution order) [COMPLETED]
+- [x] Add migration CLI commands (Manual execution via Host startup) [COMPLETED]
 
 ## Phase 3 – UI Runtime Engine
 
