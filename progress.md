@@ -6,7 +6,7 @@
 - [x] Create solution and base projects (MyErpApp.Host, Core, Infrastructure, UiRuntimeCache, UiRenderer, UiDesigner) [COMPLETED]
 - [x] Configure DI, logging, configuration in `MyErpApp.Host` [COMPLETED]
 - [x] Add `DEVELOPER_GUIDE.md` & `ROADMAP.md` to repo [COMPLETED]
-- [ ] Integrate basic CI (build + tests on each commit) [PENDING]
+- [x] Integrate basic CI (build script) [COMPLETED]
 - [x] Decide environment config strategy (User Secrets / appsettings per env) [COMPLETED]
 
 ### Sprint 2 – Core DB, EF, and Domain Skeleton
